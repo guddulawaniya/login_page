@@ -13,7 +13,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="430dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/llinearbg"
@@ -32,12 +32,12 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_marginEnd="10dp"
-            android:drawableStart="@drawable/user"
 
+            android:backgroundTint="@color/black"
+            android:drawableStart="@drawable/user"
             android:drawablePadding="10dp"
             android:drawableTint="@color/black"
             android:hint="Username"
-            android:outlineAmbientShadowColor="@color/black"
             android:textColor="#151414"
             android:textColorHint="#5A5252"
             android:textSize="18sp" />
@@ -48,12 +48,12 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/black"
             android:drawableStart="@drawable/eamil"
             android:drawablePadding="10dp"
-            android:inputType="textEmailAddress"
             android:drawableTint="@color/black"
             android:hint="Email"
-            android:text="Email"
+            android:inputType="textEmailAddress"
             android:textColor="#151414"
             android:textColorHint="#5A5252"
             android:textSize="18sp" />
@@ -64,26 +64,70 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/black"
             android:drawableStart="@drawable/password"
             android:drawablePadding="10dp"
             android:drawableTint="@color/black"
             android:hint="Password"
             android:inputType="textPassword"
-            android:text="Password"
             android:textColor="#151414"
             android:textColorHint="#5A5252"
             android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="right"
+            android:padding="2dp"
+            android:text="Login"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="10dp"
 
             android:layout_marginEnd="10dp"
             android:background="@drawable/btg"
-            android:text="sign up" />
+            android:text="Create account" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/googlebutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/google"
+                android:drawableStart="@drawable/gg"
+                android:gravity="center"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/facebook"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/facebook"
+                android:drawableStart="@drawable/fb"
+                android:padding="6dp"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
     </LinearLayout>
 
     <View
