@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/guddu/AndroidStudioProjects/logindesign/app/src/main/res/drawable/btg.xml" value="0.2555" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/logindesign/app/src/main/res/drawable/facebook.xml" value="0.2555" />
+        <entry key="..\:/Users/guddu/AndroidStudioProjects/logindesign/app/src/main/res/drawable/google.xml" value="0.2555" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/logindesign/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/logindesign/app/src/main/res/layout/btg.xml" value="0.25" />
         <entry key="..\:/Users/guddu/AndroidStudioProjects/logindesign/app/src/main/res/layout/linearbg.xml" value="0.25" />
