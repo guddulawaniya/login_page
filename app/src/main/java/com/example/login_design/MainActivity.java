@@ -2,7 +2,9 @@ package com.example.login_design;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,6 +13,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getSupportActionBar().hide();
+        TextView welcometext = findViewById(R.id.welcometext);
+
+        SharedPreferences preferences = getSharedPreferences("MySharedPref", MODE_PRIVATE);
+        String name = preferences.getString("username",null);
+
+        welcometext.setText("Welcome : "+name);
     }
 }

@@ -9,6 +9,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Logindesign">
         <activity
+            android:name=".Login_Actvity"
+            android:exported="false" />
+        <activity
+            android:name=".Registration_Activity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
